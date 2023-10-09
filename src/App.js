@@ -20,7 +20,7 @@ const App = () => {
       window.recaptchaVerifier = new RecaptchaVerifier(
         "recaptcha-container",
         {
-          size: "invisible",
+          size: "visible",
           callback: (response) => {
             onSignup();
           },
